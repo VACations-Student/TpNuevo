@@ -1,0 +1,9 @@
+{
+  "hosting": [
+    {
+      "target": "Proyecto_segundo_Cuatrimestre",
+      "source": ".",
+      "frameworksBackend": {}
+    }
+  ]
+}

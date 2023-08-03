@@ -1,0 +1,19 @@
+<br/>
+<button type="button" class="ms-1 btn btn-primary border border-dark rounded-3" (click)="volverHome()">Home</button>
+<button type="button" class="ms-1 btn btn-primary border border-dark rounded-3" (click)="googleAuth()">google</button>
+<div>
+    <form>
+        <br/>
+        <div class="ms-1 form-group col-md-3">
+            <input type="email" class="form-control" name="email" placeholder="email" [(ngModel)]="userObj.email" required>
+        </div>
+        <br/>
+        <div class="ms-1 form-group col-md-3">
+            <input type="password" class="form-control" name="password" placeholder="contraseña" [(ngModel)]="userObj.password" required>
+        </div>
+        <br/>
+        <div>
+            <button type="submit" class="ms-1 btn btn-primary border border-dark rounded-3" (click)="signUp()" >Sign Up</button>
+        </div>
+    </form>
+</div>
