@@ -65,30 +65,4 @@ export class AuthService {
       return false
     }
   }
-
-  getSerieTiempo(){
-    return this.http.get('https://apis.datos.gob.ar/series/api/series/?ids=ddaa_interior_015&format=json&metadata=none')
-  }
-/*
-  getPersonas(){
-    return collectionData(collection(this.firestore, "personas"))
-  }
-
-  getPersona(id : string){
-    return docData(doc(this.firestore, "personas/"+id))
-  }
-
-  postPersona(body : Body){
-    return addDoc(collection(this.firestore, "personas"), body)
-  }
-
-  deletePersona(id : string){
-    return deleteDoc(doc(this.firestore, "personas/"+id))
-  }
-
-  putPersona(id : string, body : Body){
-    return setDoc(doc(this.firestore, "personas/"+id), body)
-  }
-
-*/
 }
